@@ -1,0 +1,751 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    /*    font-family: 'Alegreya', serif;
+    font-family: 'Dancing Script', cursive;
+    */
+}
+img{
+    width: 100%;
+}
+.clr{
+    clear: both;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+button:hover{
+    background-color: #303030;
+
+}
+.hee{
+    background-color: #001f47d4;
+    position: sticky;
+    top: 0;
+
+}
+.hee .lino{
+    font-family: 'Roboto', sans-serif;
+}
+
+/*------------------------------------------*/
+/*------------------------------------------*/
+.engage{
+    height: 950px;
+    background-image: url(../img/WhatsApp\ Image\ 2022-08-10\ at\ 5.12.41\ PM.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-size: cover;
+}
+.engage .container .bussiness h1{
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    font-size: 76px;
+    padding-top: 280px;
+}
+.engage .container .bussiness p{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    color: rgba(255,255,255,.92);
+    font-size: 22px;
+    margin:auto;
+    margin-top: 10px;
+    line-height: 1.8;
+    width: 55%;
+}
+.engage .container .btns {
+    margin-top: 30px;
+}
+.engage .container .btns .btn{
+    padding:15px 28px;
+    border: 2px solid transparent;
+    border-radius: 4px ;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: .2px;
+    font-weight: 700;
+}
+.engage .container .btns .btn1{
+    background-color: #4274b7;
+    color:#fff;
+    margin-right: 10px;
+}
+.btn1:hover{
+    background-color:#fff ;
+    color: #000;
+    cursor: pointer;
+}
+.engage .container .btns .btn2{
+    background-color: #fff;
+    color: #000;
+}
+
+/*---------------------------------*/
+.options .container .item{
+    font-family: 'Roboto', sans-serif;
+    float:left;
+    width:33.333%;
+    margin-bottom: 7px;
+    color: #303030;
+    line-height: 1.38em;
+    padding:0 10px 0 50px;
+}
+.options{
+    padding: 70px 0;
+}
+.options .container .item {
+    margin-top: 30px;
+}
+.options .container .item h5{
+    font-size: 17px;
+
+}
+.options .container .item p{
+    margin-top: 10px;
+    font-size: 15px;
+    color: #888;
+}
+/*--------------------------------*/
+.whoarewe{
+    padding: 70px 0;
+    background-color: #f8f8f9;
+}
+.morbi{
+    width: 50%;
+    float: left;
+    padding-right: 50px;
+}
+.morbi h3{
+    font-size: 28px;
+    font-family: 'Roboto', sans-serif;
+    color: #303030;
+    margin-top: 20px;
+    padding: 30px 0;
+}
+.textsec{
+    padding-left: 17px;
+}
+.morbi p{
+    line-height: 1.8;
+    font-family: 'Open Sans', sans-serif;
+    color: #888;
+    font-size: 15px;
+    margin-bottom: 50px;
+}
+.list{
+    padding-bottom: 50px;
+}
+li{
+    list-style:none ;
+    line-height: 2;
+    font-family: 'Open Sans', sans-serif;
+    color: #888;
+}
+.fa-check{
+    color: rgb(10, 10, 169);
+    font-weight: 900;
+    padding-right: 10px;
+}
+.btn{
+    padding:15px 28px;
+    border: 2px solid transparent;
+    border-radius: 4px ;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: .2px;
+    font-weight: 700;
+    background-color: #4274b7;
+    color: #fff;
+}
+.our{
+    padding: 70px 0;
+}
+/*---------------------------------*/
+.services{
+    background-color:#f8f8f9;
+    padding: 70px 0;
+}
+.learn{
+    text-align: center;
+}
+.learn i{
+    color: #4274b7;
+    font-size: 30px;
+}
+.learn h3{
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    margin-top: 20px;
+}
+.learn p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    color: #888;
+    margin-top: 20px;
+}
+.serve{
+    float: left;
+    width: 25%;
+    padding: 10px 10px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.con{
+    padding: 50px 0;
+}
+.con i{
+    background-color:#4274b7 ;
+    border: 2px solid #4274b7 ;
+    color: #fff;
+    border-radius: 50%;
+    padding: 20px;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.serve h5{
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    color: #303030;
+    margin-bottom: 15px;
+}
+.serve p{
+    font-family: 'Open Sans', sans-serif;
+font-size: 15px;
+color:#888;
+line-height: 1.8;
+}
+/*---------------------------------*/
+.quote{
+    font-size: 30px;
+    padding-top: 150px;
+    color: #fff;
+    text-align: center;
+    opacity: 0.9;
+    background-image: url(../img/business-main.jpg);
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.quota p{
+    padding-top: 70px;
+    width: 70%;
+    margin: auto;
+    font-size: 22.5px;
+    font-family: 'Open Sans', sans-serif;
+}
+.quota h5{
+    font-size: 20px;
+    padding: 70px 0 0 0;
+}
+.quota .update{
+    padding-top: 10px;
+    font-size: 15px;
+}
+.logos{
+    padding: 70px 0;
+}
+.logo{
+    float: left;
+    width: 20%;
+    padding: 20px 40px;
+    color: #888;
+}
+.logo:hover{
+    color:#000;
+    cursor: pointer;
+}
+.work{
+    padding: 70px 0;
+    background-color: #f8f8f9;
+}
+.work .want{
+    text-align: center;
+}
+.work .want h2{
+    font-family: 'Roboto', sans-serif;
+    color: #303030;
+    margin-bottom:25px;
+    font-size: 32px;
+}
+.work .want p{
+    font-family: 'Open Sans', sans-serif;
+    color: #888;
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+.work .want .btn{
+    padding:18px 30px;
+    border: 2px solid transparent;
+    border-radius: 4px ;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: .2px;
+    font-weight: 700;
+
+}
+.family{
+    background-color: #162231;
+    padding-top: 20px;
+}
+.pic{
+    float: left;
+    width: 25%;
+    padding: 20px;
+    color: #fff;
+}
+.pic h4{
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    margin-bottom: 27px;
+} 
+.pic p{
+    color: #888;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.8;
+    font-size: 14px;
+}
+.pic i{
+    margin-right: 8px;
+}
+.pic a{
+    text-decoration: none;
+    color: #888;
+}
+.las a{
+    line-height: 2;
+}
+.les p{
+    line-height: 2;
+}
+.footer{
+background-color: #121b25;
+}
+.foot{
+    color:#888;
+    font-family: 'Open Sans', sans-serif;
+    padding: 20px 0;
+    font-size: 13px;
+    display: flex;
+}
+.foot .iconat{
+    padding-left: 700px;
+}
+.fa-brands{
+    margin-right: 10px;
+    border: 2px solid #162231;
+    border-radius: 50%;
+}
+.foot .iconat a{
+color: #888;
+}
+/*------------------------------------------------
+--------------------------------------------------
+------------------------------------------------*/
+.howitstart{
+    padding: 70px 0;
+}
+.donec{
+    width: 50%;
+    float: left;
+}
+.phot{
+    padding-right: 50px;
+}
+.donec h2{
+    margin: 50px 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 32.5px;
+}
+.donec p{
+    margin: 50px 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    color:#888 ;
+    line-height: 1.8;
+}
+.first_step{
+    background-color: #f8f8f9;
+}
+.photo_g{
+    padding-left: 50px;
+}
+.texta {
+    text-align: center;
+}
+.texta h3{
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    margin: 30px 0;
+}
+.texta p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+color: #888;
+}
+.convideo video{
+    text-align: center;
+    width: 700px;
+    height: 450px;
+    margin-left: 250px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+/*------------*/
+.ourvalues{
+    padding: 70px 0;
+    background-color: #f8f8f9;
+}
+.val {
+    text-align: center;
+}
+.val h3{
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+}
+.val p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    color: #888;
+}
+.values{
+    margin-top : 50px;
+}
+.f_value{
+width: 33.333%;
+float: left;
+padding-right: 20px;
+}
+.f_value h4{
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;   
+    margin-bottom: 18px;
+}
+.f_value p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #888;
+    line-height: 1.6;
+    margin: 30px 0;
+}
+.wan{
+    background-image: url(../img/WhatsApp\ Image\ 2022-08-10\ at\ 5.12.41\ PM.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-size: cover;
+    height: 450px;
+}
+.bbton{
+    background-color: #fff;
+    color: #000;
+}
+.wan h2{
+    padding-top: 100px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 32px;   
+    margin-bottom: 18px;
+}
+.wan p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 22px;
+    color: #888;
+    margin-bottom: 30px;
+}
+.wan .btn{
+    border:2px solid #fff ;
+}
+/*--------------------------------------------
+---------------------------------------------
+--------------------------------------------*/
+.offer{
+    padding: 70px 0;
+}
+.offertext h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;   
+    margin-bottom: 18px;
+}
+.offertext p{
+    width: 65%;
+    line-height: 1.8;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    color: #888;
+}
+.consultant{
+    width: 33.333%;
+    padding:50px 30px 0 0;
+    float: left;
+}
+.consultant h5{
+    margin: 20px 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px; 
+}
+.consultant p{
+    line-height: 1.8;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    color: #888;
+}
+.butn{
+    padding: 15px 28px;
+    margin-top: 20px;
+}
+.wen p , h2{
+    color: #fff;
+}
+/*--------------------------------------------*/
+@media screen and (max-width:1024px) {
+    .options .container .item {
+        width: 50%;
+    }
+    .morbi {
+        width: 100%
+    }
+    .serve {
+        width: 50%;
+    }
+    .foot .iconat {
+        padding-left: 200px;
+    }
+    .pic {
+        width: 50%;
+    }
+    .donec {
+        width: 100%;
+    }
+    .convideo video{
+        margin-left: 90px;
+    }
+    
+}
+@media screen and (max-width:768px) {
+    .engage {
+        height: 750px;
+    }
+    .engage .container .bussiness h1 {
+        font-size: 50px;
+        padding-top: 280px;
+    }
+    .engage .container .bussiness p {
+        font-size: 16px;
+        margin: auto;
+        margin-top: 18px;
+        line-height: 1.8;
+        width: 80%;
+    }
+    .options .container .item {
+        width: 50%;
+    }
+    .morbi {
+        width: 100%;
+    }
+    .textsec {
+        padding-left: 17px;
+        margin-bottom: 10px;
+    }
+    .serve {
+        width: 50%;
+    }
+    .quota p {
+        padding-top: 50px;
+        width: 90%;
+    }
+    .quote{
+        height: 500px;
+    }
+    .quote{
+        width: 100%;
+    }
+    .pic {
+        width: 50%;
+    }
+    .foot .iconat {
+        padding-left: 180px;
+    }
+    .phot {
+        padding-right: 0px;
+    }
+    .photo_g {
+        padding-left: 0px;
+    }
+    .convideo video {
+        width: 478px;
+        height: 300px;
+    }
+    .f_value {
+        width: 50%;
+        padding-right: 12px;
+    }
+    .consultant {
+        width: 100%;
+    }
+}
+@media screen and (max-width:600px) {
+    .engage {
+        height: 400px;
+        background-image: url(../img/WhatsApp\ Image\ 2022-08-10\ at\ 5.12.41\ PM.jpeg);
+    }
+    .video{
+        display: none;
+    }
+    .engage .container .bussiness h1 {
+        font-size: 25px;
+        padding-top: 150px;
+    }
+    .engage .container .bussiness p {
+        font-size: 8px;
+    }
+    .engage .container .btns .btn1 {
+        margin-right: 5px;
+    }
+    .engage .container .btns .btn {
+        padding: 10px 9px;
+        font-size: 8px;
+    }
+    .engage .container .btns {
+        margin-top: 20px;
+    }
+    .options .container .item {
+        width: 100%;
+    }
+    .options .container .item p {
+        margin-top: 10px;
+        font-size: 12px;
+    }
+    .morbi {
+        width: 100%;
+        padding-right: 0px;
+    }
+    .morbi p{
+        font-size: 12px;
+    }
+    .morbi h3{
+        font-size: 20px;
+    }
+    li{
+        font-size: 10px;
+    }
+    .btn {
+        padding: 8px 4px;
+        font-size: 6px;
+    }
+    .learn h3 {
+        font-size: 23px;
+        margin-top: 10px;
+    }
+    .serve {
+        width: 100%;
+    }
+    .quote{
+        height: 350px;
+    }
+    .quota p {
+        padding-top: 9px;
+        width: 100%;
+        font-size: 12.5px;
+    }
+    .quota h5 {
+        font-size: 12px;
+        padding: 30px;
+    }
+    .quota .update {
+        padding-top: 0px;
+        font-size: 12px;
+    }
+    .logo {
+        width: 100%;
+    }
+    .pic {
+        width: 100%;
+    }
+    .foot {
+        font-size: 10px;
+    }
+    .foot .iconat {
+        padding-left: 10px;
+    }
+    .textsec {
+        padding-left: 10px;
+    }
+    .donec h2 {
+        margin: 25px 0;
+        font-size: 12.5px;
+    }
+    .donec p {
+        font-size: 10px;
+    }
+    .texta h3 {
+        font-size: 18px;
+        margin: 25px 0;
+    }
+    .texta p {
+        font-size: 9px;
+    }
+    .convideo video {
+        height: 106px;
+        width: 436px;
+        padding-right: 274px;
+    }
+    .f_value {
+        width: 100%;
+    }
+    val h3 {
+        font-size: 20px;
+    }
+    .val p {
+        font-size: 12px;
+    }
+    .f_value h4 {
+        font-size: 16px;
+        margin-bottom: -15px;
+    }
+    .f_value p {
+        font-size: 12px;
+        color: #888;
+        line-height: 1.5;
+        margin: 20px 0;
+    }
+    .wan {
+        height: 319px;
+    }
+    .wan h2 {
+        padding-top: 89px;
+        font-size: 18px;
+        margin-bottom: 12px;
+    }
+    .wan p {
+        font-size: 11px;
+        margin-bottom: 24px;
+    }
+    .offertext h1 {
+        font-size: 24px;
+        margin-bottom: 14px;
+    }
+    .offertext p {
+        width: 100%;
+        font-size: 10px;
+    }
+    .consultant {
+        width: 100%;
+        padding: 35px 30px 0 0;
+    }
+    .consultant p {
+        line-height: 1.8;
+        font-size: 12px;
+    }
+    
+    
+    
+    
+    
+
+}
